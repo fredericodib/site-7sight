@@ -1,0 +1,28 @@
+/* CSS DO BUNNER */
+
+.sectionBunner__imagem{
+	background-image: url(bunner.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	padding: 1px;
+}
+
+.sectionBunner__titleContainer{
+	margin-top: 6.2em;
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.sectionBunner__contactButton{
+	margin: 0 auto;
+}
+
+.sectionBunner_contactButton__color{
+	background-color: #63D32F!important;
+	border-color: #63D32F!important;
+}
