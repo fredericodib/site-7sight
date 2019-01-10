@@ -1,0 +1,35 @@
+.indicators__background{
+	background-color: #333333;
+	height: 100px;
+}
+.indicators__align{
+	text-align: center;
+	padding-top: 12px;
+}
+.indicators__text--ColorGreen{
+	color: #63D32F;
+	font-family: Arial;
+}
+.indicators__Img{
+	width: 80px;
+}
+.indicators__paddingImg{
+	float: right;
+}
+.indicators__paddingtxt{
+	padding-right: 200px;
+}
+
+@media (max-width: 576px) {
+	.indicators__background{
+	background-color: #333333;
+	height: 400px;
+	}
+	.indicators__paddingImg{
+		text-align: center;
+		float: none;
+	}
+	.indicators__paddingtxt{
+	padding-right: 0px;
+	}
+}

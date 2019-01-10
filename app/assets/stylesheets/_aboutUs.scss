@@ -1,0 +1,42 @@
+.aboutUs{
+	padding-bottom: 50px;
+}
+.aboutUs__fotoIntegrantes{
+	height: 100%;
+	width: 100%;	
+	float: left;
+	padding-left: 20px;
+}
+.aboutUs__h1{
+	text-align: center;
+	padding-bottom:10px;
+}
+.aboutUs__h1--font{
+	font-family: arial;
+}
+.aboutUs__h1--colorGray{
+	color: #333333;
+}
+.aboutUs__h1--colorGreen{
+	color: #63D32F;
+}
+.aboutUs__text{
+	float: right;
+}
+.aboutUs__p{
+	text-indent: 3em;
+	text-align: justify;
+	padding-left: 200px;
+}
+.aboutUs__p--font{
+	font-family: georgia;
+}
+@media (max-width: 992px) {
+  	.aboutUs__p{ 
+  		padding-left: 10px;
+  		text-align: left;
+	}
+	.aboutUs__fotoIntegrantes{
+	padding-left: 0px;
+}
+}
