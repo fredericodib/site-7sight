@@ -19,10 +19,50 @@
 }
 
 .sectionBunner__contactButton{
-	margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .sectionBunner_contactButton__color{
 	background-color: #63D32F!important;
 	border-color: #63D32F!important;
 }
+
+/* MEDIA QUERY RESPONSIVO */
+
+@media(max-width: 768px){
+.sectionBunner__titleContainer{
+	margin-top: 3em;
+}
+} 
+
+@media(max-width: 414px){
+.sectionBunner__titleContainer{
+	margin-top: 4em;
+}
+} 
+
+@media(max-width: 411px){
+.sectionBunner__titleContainer{
+	margin-top: 4em;
+}
+} 
+
+@media(max-width: 375px){
+.sectionBunner__titleContainer{
+	margin-top: 4em;
+}
+}
+
+@media(max-width: 360px){
+.sectionBunner__titleContainer{
+	margin-top: 3em;
+}
+}
+
+@media(max-width: 320px){
+.sectionBunner__titleContainer{
+	margin-top: 2.2em;
+}
+}
+
