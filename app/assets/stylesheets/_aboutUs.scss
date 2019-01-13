@@ -1,36 +1,33 @@
-.aboutUs{
-	padding-bottom: 50px;
+.aboutUs {
+  padding-bottom: 50px;
 }
-.aboutUs__fotoIntegrantes{
-	width: 100%;	
+.aboutUs__fotoIntegrantes {
+  width: 100%;
 }
-.aboutUs__h1{
-	text-align: center;
-	padding-bottom:10px;
-	margin-bottom: 1.5em;
+.aboutUs__h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 1.5em;
 }
-.aboutUs__h1--font{
-	font-family: arial;
+.aboutUs__h1--font {
+  font-family: arial;
 }
-.aboutUs__h1--colorGray{
-	color: #333333;
+.aboutUs__h1--colorGray {
+  color: #333333;
 }
-.aboutUs__h1--colorGreen{
-	color: #63D32F;
+.aboutUs__h1--colorGreen {
+  color: #63d32f;
 }
-.aboutUs__text{
-	float: right;
+.aboutUs__text {
+  float: right;
 }
-.aboutUs__p{
-	text-indent: 3em;
-	text-align: justify;
+.aboutUs__p {
+  text-indent: 3em;
+  text-align: justify;
 }
-.aboutUs__p--font{
-	font-family: georgia;
-}
+
 @media (max-width: 576px) {
-  	.aboutUs__text{ 
-  		margin-top: 1em
-	}
-	
+  .aboutUs__text {
+    margin-top: 1em;
+  }
 }
