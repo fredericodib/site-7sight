@@ -1,9 +1,9 @@
 .services {
-  padding-bottom: 50px;
+  margin-bottom: 2.5em;
 }
 .services__h1 {
   text-align: center;
-  padding-bottom: 60px;
+  margin-bottom: 1.5em;
 }
 .services__h1--font {
   font-family: arial;
@@ -29,20 +29,13 @@
 }
 .services__images {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
 /* MEDIA QUERY RESPONSIVO Ainda sendo ajustado*/
 @media (max-width: 768px) {
-  .services__images {
-    width: 100%;
-    float: left;
-  }
   .services__p {
     width: 100%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 2em;
   }
 }
