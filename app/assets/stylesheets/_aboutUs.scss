@@ -1,0 +1,33 @@
+.aboutUs {
+  margin-bottom: 2.5em;
+}
+.aboutUs__fotoIntegrantes {
+  width: 100%;
+}
+.aboutUs__h1 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.aboutUs__h1--font {
+  font-family: arial;
+}
+.aboutUs__h1--colorGray {
+  color: #333333;
+  font-weight: bold;
+}
+.aboutUs__h1--colorGreen {
+  color: #63d32f;
+}
+.aboutUs__text {
+  float: right;
+}
+.aboutUs__p {
+  text-indent: 3em;
+  text-align: justify;
+}
+
+@media (max-width: 576px) {
+  .aboutUs__text {
+    margin-top: 1em;
+  }
+}

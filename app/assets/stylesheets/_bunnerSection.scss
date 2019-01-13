@@ -1,49 +1,49 @@
 /* CSS DO BUNNER */
 
-#sectionBunner .container-fluid{
-	padding-left: 0px;
-	padding-right: 0px;
+#sectionBunner .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.sectionBunner__bunner{
-	background-image: url(bunner.jpg);
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 70vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.sectionBunner__bunner {
+  background-image: url(bunner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.sectionBunner__titleContainer{
-	color: white;
-	text-align: center;
-	font-size: 3rem;
+.sectionBunner__titleContainer {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
 }
 
-.sectionBunner__contactButton{
-    text-align: center;
-    margin-top: 50px;
+.sectionBunner__contactButton {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.sectionBunner__contactButton--color{
-	background-color: #63D32F!important;
-	border-color: #63D32F!important;
-	border-radius: 0%;
-	color: black;
-	font-weight: bold;
+.sectionBunner__contactButton--color {
+  background-color: #63d32f !important;
+  border-color: #63d32f !important;
+  border-radius: 0%;
+  color: black;
+  font-weight: bold;
 }
 
-@media(max-width: 768px){
-.sectionBunner__bunner{
-	height: 100vh;
-}
+@media (max-width: 768px) {
+  .sectionBunner__bunner {
+    height: 100vh;
+  }
 
-.sectionBunner__titleContainer{
-	font-size: 2.5rem;
-} 
+  .sectionBunner__titleContainer {
+    font-size: 2.5rem;
+  }
 }

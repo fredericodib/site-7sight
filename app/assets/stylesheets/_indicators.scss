@@ -1,0 +1,46 @@
+.indicators {
+  margin-bottom: 2.5em;
+}
+
+.indicators__background {
+  background-color: #333333;
+  height: 100px;
+  font-size: 1.5em;
+}
+.indicators__align {
+  text-align: center;
+  padding-top: 12px;
+}
+.indicators__text--ColorGreen {
+  color: #63d32f;
+  font-family: Arial;
+  margin-bottom: 0;
+}
+.indicators__Img {
+  width: 120px;
+}
+.indicators__paddingImg {
+  float: right;
+}
+.indicators__paddingtxt {
+  padding-right: 200px;
+}
+
+@media (max-width: 576px) {
+  .indicators__background {
+    background-color: #333333;
+    height: 450px;
+    font-size: 2em;
+  }
+  .indicators__paddingImg {
+    text-align: center;
+    float: none;
+  }
+  .indicators__paddingtxt {
+    padding-right: 0px;
+  }
+  .indicators__Img {
+    width: 120px;
+    padding-top: 20px;
+  }
+}
