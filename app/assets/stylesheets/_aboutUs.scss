@@ -1,12 +1,11 @@
 .aboutUs {
-  padding-bottom: 50px;
+  margin-bottom: 2.5em;
 }
 .aboutUs__fotoIntegrantes {
   width: 100%;
 }
 .aboutUs__h1 {
   text-align: center;
-  padding-bottom: 10px;
   margin-bottom: 1.5em;
 }
 .aboutUs__h1--font {
@@ -14,6 +13,7 @@
 }
 .aboutUs__h1--colorGray {
   color: #333333;
+  font-weight: bold;
 }
 .aboutUs__h1--colorGreen {
   color: #63d32f;
