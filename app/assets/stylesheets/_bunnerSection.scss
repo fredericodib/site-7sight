@@ -1,18 +1,25 @@
 /* CSS DO BUNNER */
 
-.sectionBunner__imagem{
+#sectionBunner .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.sectionBunner__bunner{
 	background-image: url(bunner.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 80vh;
+	height: 70vh;
 	width: 100%;
-	padding: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .sectionBunner__titleContainer{
-	margin-top: 6.2em;
 	color: white;
 	text-align: center;
 	font-size: 3rem;
@@ -20,49 +27,23 @@
 
 .sectionBunner__contactButton{
     text-align: center;
-    padding-top: 30px;
+    margin-top: 50px;
 }
 
-.sectionBunner_contactButton__color{
+.sectionBunner__contactButton--color{
 	background-color: #63D32F!important;
 	border-color: #63D32F!important;
+	border-radius: 0%;
+	color: black;
+	font-weight: bold;
 }
-
-/* MEDIA QUERY RESPONSIVO */
 
 @media(max-width: 768px){
-.sectionBunner__titleContainer{
-	margin-top: 3em;
+.sectionBunner__bunner{
+	height: 100vh;
 }
+
+.sectionBunner__titleContainer{
+	font-size: 2.5rem;
 } 
-
-@media(max-width: 414px){
-.sectionBunner__titleContainer{
-	margin-top: 4em;
 }
-} 
-
-@media(max-width: 411px){
-.sectionBunner__titleContainer{
-	margin-top: 4em;
-}
-} 
-
-@media(max-width: 375px){
-.sectionBunner__titleContainer{
-	margin-top: 4em;
-}
-}
-
-@media(max-width: 360px){
-.sectionBunner__titleContainer{
-	margin-top: 3em;
-}
-}
-
-@media(max-width: 320px){
-.sectionBunner__titleContainer{
-	margin-top: 2.2em;
-}
-}
-
