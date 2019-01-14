@@ -11,6 +11,16 @@
 
   <body>
     <%= yield %>
+
+
+
   </body>
+  
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag('smooth-scroll.mini').sub('.js', '')
+
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
 </html>
