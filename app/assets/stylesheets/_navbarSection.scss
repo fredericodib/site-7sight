@@ -16,3 +16,9 @@
 	transition: all ease .5s;
 	background:	#00000000!important;
 }
+
+@media (max-width: 768px) {
+	.bg-dark{
+		background: #343a40 !important;
+	}
+}
