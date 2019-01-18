@@ -26,6 +26,21 @@
   text-align: justify;
 }
 
+.aboutUs__icon {
+  width: 30%;
+  display: block;
+  margin: 1.5em auto 0.5em;
+}
+
+.aboutUs__mvvTitle {
+  color: #63d32f;
+  text-align: center;
+}
+
+.aboutUs__mvvP {
+  text-align: center;
+}
+
 @media (max-width: 576px) {
   .aboutUs__text {
     margin-top: 1em;
