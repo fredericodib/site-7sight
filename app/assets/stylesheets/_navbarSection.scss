@@ -1,3 +1,24 @@
-.navbarSection {
-  color: blue;
+/* CSS DA NAVBAR */
+
+.nav-link--fonte{
+    color: #FFFFFF !important;
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    padding-right: 20px!important;
+}
+
+#nav.shrink {
+  transition: all ease .5s;
+  background: #343a40 !important;
+}
+
+.bg-dark{
+	transition: all ease .5s;
+	background:	#00000000!important;
+}
+
+@media (max-width: 768px) {
+	.bg-dark{
+		background: #343a40 !important;
+	}
 }

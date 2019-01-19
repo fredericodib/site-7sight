@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>7Sight</title>
+    <title>7Sight - Fábrica de Software</title>
+    <%= favicon_link_tag 'icone.png' %>
+    
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +13,35 @@
 
   <body>
     <%= yield %>
+
+
   </body>
+  
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+  <script type="text/javascript">
+    new TypeIt('#breakLines', {
+      strings: ["Dar vida ao seu projeto", "é o nosso objetivo!"],
+      speed: 58,
+      waitUntilVisible: true
+    }).go();
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if($(document).scrollTop() > 10) {
+          $('#nav').addClass('shrink');
+        }
+        else {
+        $('#nav').removeClass('shrink');
+        }
+      });
+    });
+  </script>
+
 </html>

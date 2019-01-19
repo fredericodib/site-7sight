@@ -1,12 +1,11 @@
 .aboutUs {
-  padding-bottom: 50px;
+  margin-bottom: 2.5em;
 }
 .aboutUs__fotoIntegrantes {
   width: 100%;
 }
 .aboutUs__h1 {
   text-align: center;
-  padding-bottom: 10px;
   margin-bottom: 1.5em;
 }
 .aboutUs__h1--font {
@@ -14,6 +13,7 @@
 }
 .aboutUs__h1--colorGray {
   color: #333333;
+  font-weight: bold;
 }
 .aboutUs__h1--colorGreen {
   color: #63d32f;
@@ -24,6 +24,21 @@
 .aboutUs__p {
   text-indent: 3em;
   text-align: justify;
+}
+
+.aboutUs__icon {
+  width: 30%;
+  display: block;
+  margin: 1.5em auto 0.5em;
+}
+
+.aboutUs__mvvTitle {
+  color: #63d32f;
+  text-align: center;
+}
+
+.aboutUs__mvvP {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
