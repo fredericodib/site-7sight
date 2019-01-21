@@ -1,3 +1,118 @@
-<section id="section-portifolium">
-    <h1>portifolio</h1>
+<section data-turbolinks="false" id="section-portifolium">
+	<div class="portifolium" >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="portifolium__h1 portifolium__h1--font"><span class="portifolium__h1--colorGray">NOSSO </span><span class="portifolium__h1--colorGreen">PORTIFÓLIO</span></h1>
+				</div>
+			</div>
+
+			<!-- CARROSSEL INDICATORS -->
+			<div id="portifolium__carouselSite" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#portifolium__carouselSite" data-slide-to="0" class="active"></li>
+					<li data-target="#portifolium__carouselSite" data-slide-to="1"></li>
+					<li data-target="#portifolium__carouselSite" data-slide-to="2"></li>
+				</ol>
+
+				<!-- CARROSSEL PICTURES -->  	
+				<div class="carousel-inner">
+				    <div class="carousel-item active">
+				       	<div class="row">
+					        <div class="col-sm-6">
+					        	<button type="button" class="btn" data-toggle="modal" data-target="#portifolium__modalAFN">
+					        		<%= image_tag "3.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>	
+					        	</button>
+					        </div>
+					        <div class="col-sm-6">
+					        	<button type="button" class="btn" data-toggle="modal" data-target="#portifolium__modalAtelie">
+					        		<%= image_tag "4.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>	
+					        	</button>
+					        </div>
+				       	</div>
+				    </div>
+				    <div class="carousel-item">
+				        <div class="row">
+					        <div class="col-sm-6">
+					        	<button type="button" class="btn" data-toggle="modal" data-target="#portifolium__modalAFN">
+					        		<%= image_tag "3.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>	
+					        	</button>
+					        </div>
+					        <div class="col-sm-6">
+					        	<button type="button" class="btn" data-toggle="modal" data-target="#portifolium__modalAtelie">
+					        		<%= image_tag "4.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>	
+					        	</button>
+					        </div>
+				        </div>
+				    </div>
+				    <div class="carousel-item">
+				        <div class="row">
+					        <div class="col-sm-6">
+					        	<button type="button" class="btn" data-toggle="modal" data-target="#portifolium__modalAFN">
+					        		<%= image_tag "3.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>	
+					        	</button>
+					        </div>
+					        <div class="col-sm-6">
+					        	<button type="button" class="btn" data-toggle="modal" data-target="#portifolium__modalAtelie">
+					        			<%= image_tag "4.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>	
+					        	</button>
+					        </div>
+				        </div>
+				    </div>
+				</div>
+
+				<!-- CARROSSEL CONTROL-BUTTONS -->
+				<a data-turbolinks="false" class="carousel-control-prev" data-target="#portifolium__carouselSite" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" data-target="#portifolium__carouselSite" role="button" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Caso For adicionar mais um projeto, apenas copiar o código abaixo, e trocar os valores, e adicionar um botão modal-->
+	
+		<!-- Modal AFN -->
+		<div class="modal fade" id="portifolium__modalAFN" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered " role="document">
+				<div class="modal-content">
+				<div class="modal-header ">
+					<a class="portifolium__a" href="http://afnengenharia.com/" target="blank"><h5 id="exampleModalLabel">Projeto Engenharia AFN</h5></a>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+					<div class="modal-body">
+						<%= image_tag "3.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>
+						<p class="portifolium__p">Lorem ipsum dolor sit amet consectetur adipiscing elit curae non in, nulla a rhoncus vulputate pharetra vivamus natoque egestas venenatis, nascetur eros donec augue leo proin porttitor parturient dictumst. Dui tellus integer lacinia mauris fusce luctus adipiscing efficitur sed scelerisque eleifend nulla, conubia finibus porttitor tincidunt litora etiam blandit aenean lectus pretium. Vestibulum class nam vulputate dis imperdiet odio semper, aliquam placerat maximus etiam senectus vivamus ligula lacinia, malesuada dapibus habitant nulla pharetra tortor. Volutpat velit rutrum fringilla pharetra est bibendum consequat, ultricies blandit lobortis sceleri.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End Modal AFN-->
+
+		<!-- Modal Ateliê -->
+		<div class="modal fade" id="portifolium__modalAtelie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered " role="document">
+				<div class="modal-content">
+				<div class="modal-header ">
+					<a class="portifolium__a" href="https://7sight.github.io/Atelie-dos-Sonhos/" target="blank"><h5 id="exampleModalLabel">Projeto Ateliê dos Sonhos</h5></a>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+					<div class="modal-body">
+						<%= image_tag "4.jpg", alt:"imgCarousel1",class:"portifolium__picture img-fluid d-block"%>
+						<p class="portifolium__p">Lorem ipsum dolor sit amet consectetur adipiscing elit curae non in, nulla a rhoncus vulputate pharetra vivamus natoque egestas venenatis, nascetur eros donec augue leo proin porttitor parturient dictumst. Dui tellus integer lacinia mauris fusce luctus adipiscing efficitur sed scelerisque eleifend nulla, conubia finibus porttitor tincidunt litora etiam blandit aenean lectus pretium. Vestibulum class nam vulputate dis imperdiet odio semper, aliquam placerat maximus etiam senectus vivamus ligula lacinia, malesuada dapibus habitant nulla pharetra tortor. Volutpat velit rutrum fringilla pharetra est bibendum consequat, ultricies blandit lobortis sceleri.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End Modal Ateliê-->
+	</div>
 </section>
