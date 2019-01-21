@@ -1,9 +1,9 @@
-.portifolium{
-	padding-bottom: 2.5em;
+.portifolium {
+  margin-bottom: 2.5em;
 }
-.portifolium__a{
-	color: black;
-	text-align: center;
+.portifolium__a {
+  color: black;
+  text-align: center;
 }
 .portifolium__p {
   text-indent: 3em;
@@ -11,7 +11,7 @@
 }
 .portifolium__h1 {
   text-align: center;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   margin-bottom: 1.5em;
 }
 .portifolium__h1--font {
@@ -23,16 +23,16 @@
 .portifolium__h1--colorGreen {
   color: #63d32f;
 }
-.portifolium__picture{
-	width: 100%;
-	padding-bottom: 0.5em;
+.portifolium__picture {
+  width: 100%;
+  margin-bottom: 0.5em;
 }
-.carousel-indicators{
-	bottom:-40px;
+.carousel-indicators {
+  bottom: -40px;
 }
 .carousel-indicators li {
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    background-color: #404040;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
 }
