@@ -7,15 +7,15 @@
                 </div>
             
                 <div class="col-sm-6">
-                    <form action="/post" method="post">
-                        <input class="form-control contact__input" name="name" placeholder="Nome" /><br />
-                        <input class="form-control contact__input" name="phone" placeholder="Telefone" /><br />
-                        <input class="form-control contact__input" name="email" placeholder="E-mail" /><br />
-                        <textarea class="form-control contact__input textarea" name="text" placeholder="Mensagem"></textarea><br />
+                    <%= form_tag('/send_email') do %>
+                        <%= text_field_tag(:name, "", class: "form-control contact__input", placeholder: "Nome") %>
+                        <%= text_field_tag(:phone, "", class: "form-control contact__input", placeholder: "Telefone") %>
+                        <%= text_field_tag(:email, "", class: "form-control contact__input", placeholder: "E-mail") %>
+                        <%= text_area_tag(:message, "", class: "form-control contact__input textarea", placeholder: "Mensagem") %>
                         <div class="contact__submit--position">
-                            <input class="btn btn-primary contact__submit" type="submit" value="ENVIAR" /><br /><br />
+                            <%= submit_tag("ENVIAR", class: "btn btn-primary contact__submit") %>
                         </div>
-                    </form>
+                    <% end %>
                 </div>
                 
                 <div class="col-sm-6 contact__info">
