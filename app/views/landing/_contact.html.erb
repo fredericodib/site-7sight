@@ -8,10 +8,10 @@
             
                 <div class="col-sm-6">
                     <%= form_tag('/send_email') do %>
-                        <%= text_field_tag(:name, "", class: "form-control contact__input", placeholder: "Nome") %>
-                        <%= text_field_tag(:phone, "", class: "form-control contact__input", placeholder: "Telefone") %>
-                        <%= text_field_tag(:email, "", class: "form-control contact__input", placeholder: "E-mail") %>
-                        <%= text_area_tag(:message, "", class: "form-control contact__input textarea", placeholder: "Mensagem") %>
+                        <%= text_field_tag(:name, "", class: "form-control contact__input", placeholder: "Nome", :required => true) %>
+                        <%= text_field_tag(:phone, "", class: "form-control contact__input", placeholder: "Telefone", :required => true) %>
+                        <%= text_field_tag(:email, "", class: "form-control contact__input", placeholder: "E-mail", :required => true) %>
+                        <%= text_area_tag(:message, "", class: "form-control contact__input textarea", placeholder: "Mensagem", :required => true) %>
                         <div class="contact__submit--position">
                             <%= submit_tag("ENVIAR", class: "btn btn-primary contact__submit") %>
                         </div>
