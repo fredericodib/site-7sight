@@ -5,6 +5,6 @@ class LandingController < ApplicationController
 
     def send_email
         ContactMailer.with(name: params[:name], phone: params[:phone], email: params[:email], message: params[:message]).send_contact_mailer.deliver_later
-        redirect_to :root
+        redirect_to :root, notice: "Email enviado!"
     end
 end

@@ -19,9 +19,16 @@
   
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
+  <% if notice %>
+    <script>
+      $.notify('<%= notice %>', "success");
+    </script>
+  <% end %>
+  
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
   </script>
+  
 
   <script type="text/javascript">
     new TypeIt('#breakLines', {
