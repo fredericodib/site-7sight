@@ -64,14 +64,22 @@
 .contact__input::-webkit-input-placeholder {
   color: white;
 }
+
 .contact__submit {
-  border-radius: 0;
-  background-color: #63d32f;
-  color: #333333;
+  background-color: #63d32f !important;
+  border-color: #63d32f !important;
+  border-radius: 0%;
+  color: black;
   font-weight: bold;
-  border-color: #63d32f;
-  margin-bottom: 2em;
+  border: none;
 }
+
+.btn-primary:hover{
+  background-color: #63d32f!important;
+  color: white!important;
+  border: none;
+}
+
 .contact__submit--position {
   text-align: center;
   width: 85%;
