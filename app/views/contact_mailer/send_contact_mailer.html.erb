@@ -1,4 +1,20 @@
-<h2>Nome: <%= @name %></h1>
-<h2>Email: <%= @email %></h1>
-<h2>Telefone: <%= @phone %></h1>
-<h2>Mensagem: <%= @message %></h3>
+<div style="font-family: arial;">	
+	<div style="background-color: #333333; padding: 13px;">			
+		<%= image_tag "https://sevensight.herokuapp.com/assets/logo-5329d259f9e6f8b6c0e528d914352db6c29cdf84fb4557758c292dcaa5172fba.png", :style => "width:325px;display: block;margin-left: auto;margin-right: auto;"  %>
+		<h3 style="text-align: center;"><span style="color:#63d32f;" >> NOVO </span><span style="color:white;">CONTATO < </span></h3>
+    </div>
+	<div style="padding: 10px; border: 1px solid #63d32f; border-bottom-width: 3px; border-top-width: 3px;">
+		<h2><span style="color:#63d32f;">Nome: </span></h2>
+		<p><%= @name %></p>		 
+		<h2><span style="color:#63d32f;">E-mail: </span></h2>
+		<p><%= @email %></p>		 
+		<h2><span style="color:#63d32f;">Telefone: </span></h2>
+		<p><%= @phone %></p> 
+	</div>
+	<div style="background-color: #333333; padding: 15px;">
+		<h2><span style="color:#63d32f;">Mensagem: </span> </h2>
+		<div style="color:white">
+			<p><%= @message %></p>
+		</div>
+	</div>
+</div>
