@@ -7,40 +7,58 @@
   height: 100px;
   font-size: 1.5em;
 }
+
+.indicators__background * {
+  height: 100%;
+}
+
 .indicators__align {
   text-align: center;
   padding-top: 12px;
 }
 .indicators__text--ColorGreen {
   color: #63d32f;
-  font-family: Arial;
   margin-bottom: 0;
 }
 .indicators__Img {
-  width: 120px;
+  width: 100%;
 }
 .indicators__paddingImg {
-  float: right;
+  height: 100%;
+  width: 70%;
+  margin-left: 30%;
 }
+
+.indicators__containertxt {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
 .indicators__paddingtxt {
-  padding-right: 200px;
+  height: auto;
 }
 
 @media (max-width: 576px) {
   .indicators__background {
     background-color: #333333;
-    height: 450px;
+    height: auto;
     font-size: 2em;
+    padding: 0.5em 0 1em;
+  }
+  .indicators__background * {
+    height: auto;
   }
   .indicators__paddingImg {
-    text-align: center;
-    float: none;
+    width: 30%;
+    margin: 0.5em auto 0em;
+    height: auto;
   }
   .indicators__paddingtxt {
-    padding-right: 0px;
+    text-align: center;
   }
-  .indicators__Img {
-    width: 120px;
-    padding-top: 20px;
+  .indicators__containertxt {
+    display: block;
+    height: auto;
   }
 }
